@@ -9,8 +9,9 @@ body {
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  /*For background Image*/
-  background-image: url(https://i.pinimg.com/564x/d9/0b/1a/d90b1a7235ad4aa449fc31bf8bf77ea7.jpg);
+  /*For background Image
+  background-image: url(https://i.pinimg.com/564x/d9/0b/1a/d90b1a7235ad4aa449fc31bf8bf77ea7.jpg);*/
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -35,6 +36,9 @@ body {
   border-radius: 5px;
   color: white;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
 }
 
 .search-bar {
@@ -86,4 +90,7 @@ button:hover {
   width: 100%;
   background-image: linear-gradient(to top, #34d, #ccc);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
 }
